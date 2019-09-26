@@ -112,10 +112,34 @@ a {
   background: #c3a109;
 }
 
+.slider-btn:hover {
+  cursor: pointer;
+}
+
+.slider-btn::before,
+.slider-btn::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 13px;
+  height: 19px;
+  margin: auto;
+}
+
 .slider-btn-left {
   left: 0;
 }
 
+.slider-btn-left::before {
+  content: url("../img/arrow_left.svg");
+}
+
 .slider-btn-right {
   right: 0;
+}
+
+.slider-btn-right::before {
+  content: url("../img/arrow_right.svg");
 }
