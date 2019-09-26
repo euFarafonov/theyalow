@@ -176,3 +176,19 @@ a {
   text-transform: uppercase;
   color: #000000;
 }
+
+.footer {
+  padding: 6px 0 4px;
+  background: #4c4c4c;
+  box-shadow: 0 -5px 5px 0 rgba(0, 0, 0, 1);
+}
+
+.footer-logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-logo img {
+  display: block;
+  width: 223px;
+}
