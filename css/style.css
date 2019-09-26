@@ -79,7 +79,7 @@ a {
   vertical-align: top;
   width: 550px;
   height: 330px;
-  outline: 1px solid red;
+  outline: none;
 }
 
 .slider-text {
