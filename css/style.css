@@ -78,6 +78,31 @@ a {
   text-transform: uppercase;
 }
 
+.header-menu a::before {
+  content: "";
+  display: inline-block;
+  margin-right: 9px;
+  transform: translateY(3px);
+}
+
+.header-menu li:nth-child(1) a::before {
+  width: 21px;
+  height: 19px;
+  background: url("../img/icon_men.svg") no-repeat;
+}
+
+.header-menu li:nth-child(2) a::before {
+  width: 19px;
+  height: 19px;
+  background: url("../img/icon_services.svg") no-repeat;
+}
+
+.header-menu li:nth-child(3) a::before {
+  width: 24px;
+  height: 18px;
+  background: url("../img/icon_mail.svg") no-repeat;
+}
+
 .slider {
   position: relative;
 }
