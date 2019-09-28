@@ -224,8 +224,13 @@ a {
   box-sizing: border-box;
 }
 
+.products-item:first-child {
+  padding-top: 58px;
+}
+
 .products-item:last-child {
   border-right: 1px solid rgba(0, 0, 0, 0.14);
+  padding-top: 49px;
 }
 
 .products-item img {
