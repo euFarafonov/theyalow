@@ -404,15 +404,35 @@ a {
 }
 
 .band-twitter li {
+  position: relative;
   width: 275px;
   padding: 5px 40px 5px 20px;
   box-sizing: border-box;
   font: 400 13px "Arial", sans-serif;
   color: #8f8e8e;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.7);
   white-space: normal;
   margin-bottom: 14px;
   border-radius: 10px;
+}
+
+.band-twitter li::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 21px;
+  display: block;
+  width: 9px;
+  height: 13px;
+  background: url("../img/icon_corner_transparent.svg");
+}
+
+.band-twitter li:first-child {
+  background: rgba(255, 255, 255, 1);
+}
+
+.band-twitter li:first-child::before {
+  background: url("../img/icon_corner_white.svg");
 }
 
 .band-form {
