@@ -36,7 +36,7 @@ a {
 }
 
 .header-nav {
-  margin-bottom: 56px;
+  margin-bottom: 52px;
 }
 
 .header-logo {
@@ -67,13 +67,13 @@ a {
 
 .header-menu a {
   display: block;
-  width: 172px;
   height: 40px;
   background: #f5c506;
   color: #9b7d08;
   text-align: center;
   font: 400 17px/40px "SegoeWP", sans-serif;
   text-transform: uppercase;
+  padding: 0 20px 0 15px;
 }
 
 .header-menu a:hover {
@@ -85,6 +85,10 @@ a {
   display: inline-block;
   margin-right: 9px;
   transform: translateY(3px);
+}
+
+.header-menu li:nth-child(1) a {
+  padding-left: 40px;
 }
 
 .header-menu li:nth-child(1) a::before {
@@ -133,7 +137,7 @@ a {
   vertical-align: top;
   text-align: center;
   width: 450px;
-  padding-top: 90px;
+  padding-top: 77px;
 }
 
 .slider-text h3 {
@@ -141,12 +145,15 @@ a {
   text-transform: uppercase;
   text-align: center;
   color: #f5c506;
-  font: 400 63px "Asap", sans-serif;
+  font: 400 63px/75px "Asap", sans-serif;
+  letter-spacing: 1px;
+  padding-left: 20px;
 }
 
 .slider-text span {
   display: block;
   color: #ffffff;
+  padding-left: 20px;
 }
 
 .slider-btn {
@@ -219,36 +226,55 @@ a {
   display: inline-block;
   vertical-align: top;
   width: 340px;
-  padding: 37px 0;
+  padding: 35px 0;
   border-left: 1px solid rgba(0, 0, 0, 0.14);
   box-sizing: border-box;
 }
 
 .products-item:first-child {
-  padding-top: 58px;
+  padding-top: 60px;
+}
+
+.products-item:nth-child(2) {
 }
 
 .products-item:last-child {
   border-right: 1px solid rgba(0, 0, 0, 0.14);
-  padding-top: 49px;
+  padding-top: 53px;
+  padding-right: 15px;
 }
 
 .products-item img {
   display: block;
-  margin: 0 auto 19px;
+  margin: 0 auto 15px;
+}
+
+.products-item:nth-child(2) img {
+  margin-bottom: 19px;
+  padding-left: 22px;
+}
+
+.products-item:last-child img {
+  margin-bottom: 13px;
+  padding-left: 0;
 }
 
 .products-item h4 {
   margin: 0;
+  padding-left: 13px;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
   font: 400 27px/27px "SegoeWP-Light", sans-serif;
 }
 
+.products-item:last-child h4 {
+  padding-left: 0;
+}
+
 /*** SECTION YELLOW ***/
 .yellow {
-  padding: 40px 0 20px;
+  padding: 37px 0 20px;
   background: url("../img/bg_yellow.jpg");
   background-size: cover;
 }
@@ -257,10 +283,11 @@ a {
 }
 
 .yellow-wrap h4 {
-  margin: 0 0 40px;
+  margin: 0 0 35px;
   font: 400 37px/37px "PT Sans", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
+  letter-spacing: 0.01em;
 }
 
 /*** SLIDER IN YELLOW ***/
@@ -285,7 +312,7 @@ a {
   vertical-align: top;
   width: 340px;
   height: 235px;
-  padding: 25px 30px 0;
+  padding: 15px 10px 0 30px;
   box-sizing: border-box;
   background: #ec9e03;
 }
@@ -297,8 +324,8 @@ a {
 
 .band-number {
   position: absolute;
-  top: 20px;
-  right: 19px;
+  top: 13px;
+  right: 30px;
   width: 24px;
   height: 18px;
   font: 400 25px "SegoeWP-Light", sans-serif;
@@ -324,6 +351,7 @@ a {
   color: #ffffff;
   font: 400 29px/38px "SegoeWP-Light", sans-serif;
   white-space: normal;
+  letter-spacing: 0.01em;
 }
 
 .band-date {
@@ -333,17 +361,18 @@ a {
   width: 115px;
   height: 85px;
   background: #ddb101;
-  font: 700 51px/51px "SegoeWP", sans-serif;
+  font: 700 50px/50px "SegoeWP", sans-serif;
   color: #ffffff;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 7px;
   box-sizing: border-box;
 }
 
 .band-date span {
   display: block;
-  font: 400 21px/21px "SegoeWP", sans-serif;
+  font: 400 22px/22px "SegoeWP", sans-serif;
   color: #b26529;
+  text-transform: uppercase;
 }
 
 .band-range {
@@ -481,7 +510,7 @@ a {
 
 /*** SECTION GRAY ***/
 .gray {
-  padding: 50px 0 90px;
+  padding: 45px 0 70px;
   background: url("../img/bg_gray.jpg");
   background-size: cover;
 }
@@ -490,11 +519,12 @@ a {
 }
 
 .gray-wrap h4 {
-  margin: 0 0 55px;
+  margin: 0 0 50px;
   font: 400 43px/43px "PT Sans", sans-serif;
   color: #f5c506;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 0.01em;
 }
 
 .gray-content {
@@ -504,6 +534,8 @@ a {
   float: left;
   position: relative;
   width: 620px;
+  padding-left: 20px;
+  box-sizing: border-box;
 }
 
 .gray-content-image img {
@@ -512,7 +544,7 @@ a {
 
 .gray-content-image div {
   position: absolute;
-  top: -45px;
+  top: -42px;
   left: 0;
   width: 115px;
   height: 115px;
@@ -528,16 +560,17 @@ a {
   float: right;
   width: 400px;
   margin: 0;
-  padding: 40px 0 0 34px;
+  padding: 45px 0 0 50px;
   list-style-type: none;
   box-sizing: border-box;
 }
 
 .gray-content-text li {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
   font: 400 22px/26px "Open Sans", sans-serif;
   color: #a9a9a7;
+  letter-spacing: 0.01em;
 }
 
 .gray-content-text li::before {
@@ -556,7 +589,7 @@ a {
 .footer {
   padding: 6px 0 4px;
   background: #4c4c4c;
-  box-shadow: 0 -5px 5px 0 rgba(0, 0, 0, 1);
+  box-shadow: 0 -5px 5px 0 rgba(0, 0, 0, 0.5);
 }
 
 .footer-logo {
@@ -567,4 +600,5 @@ a {
 .footer-logo img {
   display: block;
   width: 223px;
+  margin: 0 0 0 0;
 }
