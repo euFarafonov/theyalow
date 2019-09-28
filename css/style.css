@@ -12,9 +12,6 @@
   font-weight: normal;
 }
 
-body {
-}
-
 .container {
   max-width: 1020px;
   margin: 0 auto;
@@ -31,6 +28,7 @@ a {
   cursor: pointer;
 }
 
+/*** HEADER ***/
 .header {
   padding: 28px 0 70px;
   background: url("../img/bg_header.jpg");
@@ -107,6 +105,7 @@ a {
   background: url("../img/icon_mail.svg") no-repeat;
 }
 
+/*** SLIDER ***/
 .slider {
   position: relative;
 }
@@ -196,6 +195,7 @@ a {
   content: url("../img/arrow_right.svg");
 }
 
+/*** SECTION PRODUCT ***/
 .products {
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
   background: url("../img/bg.jpg") repeat;
@@ -246,6 +246,7 @@ a {
   font: 400 27px/27px "SegoeWP-Light", sans-serif;
 }
 
+/*** SECTION YELLOW ***/
 .yellow {
   padding: 40px 0 20px;
   background: url("../img/bg_yellow.jpg");
@@ -262,6 +263,7 @@ a {
   text-transform: uppercase;
 }
 
+/*** SLIDER IN YELLOW ***/
 .band {
 }
 
@@ -370,6 +372,14 @@ a {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 }
 
+.band-video {
+  display: inline-block;
+  vertical-align: top;
+  width: 315px;
+  height: 235px;
+  outline: none;
+}
+
 .band-img {
   display: inline-block;
   vertical-align: top;
@@ -377,6 +387,7 @@ a {
   height: 235px;
 }
 
+/*** SECTION GRAY ***/
 .gray {
   padding: 50px 0 90px;
   background: url("../img/bg_gray.jpg");
@@ -449,6 +460,7 @@ a {
   background: #f5c506;
 }
 
+/*** FOOTER ***/
 .footer {
   padding: 6px 0 4px;
   background: #4c4c4c;
