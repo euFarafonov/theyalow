@@ -303,14 +303,18 @@ a {
   color: #ffffff;
 }
 
-.band-text::before {
-  content: "";
+.band-plus {
   position: absolute;
   bottom: 13px;
   right: 14px;
   width: 11px;
   height: 11px;
   background: url("../img/icon_plus.svg");
+  transition: all 0.25s;
+}
+
+.band-plus:hover {
+  transform: scale(2);
 }
 
 .band-text p {
