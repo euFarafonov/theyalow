@@ -69,12 +69,12 @@ a {
 .header-menu a {
   display: block;
   height: 40px;
+  padding: 0 20px 0 15px;
+  font: 400 17px/40px "SegoeWP", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
   background: #f5c506;
   color: #9b7d08;
-  text-align: center;
-  font: 400 17px/40px "SegoeWP", sans-serif;
-  text-transform: uppercase;
-  padding: 0 20px 0 15px;
 }
 
 .header-menu a:hover {
@@ -116,12 +116,9 @@ a {
 }
 
 .slider-wrap {
-  box-sizing: border-box;
   padding: 0 10px;
+  box-sizing: border-box;
   font-size: 0;
-}
-
-.slider-item {
 }
 
 .slider-video {
@@ -136,34 +133,34 @@ a {
 .slider-text {
   display: inline-block;
   vertical-align: top;
-  text-align: center;
   width: 450px;
   padding-top: 77px;
+  text-align: center;
 }
 
 .slider-text h3 {
   margin: 0;
+  padding-left: 20px;
+  font: 400 63px/75px "Asap", sans-serif;
+  letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
   color: #f5c506;
-  font: 400 63px/75px "Asap", sans-serif;
-  letter-spacing: 1px;
-  padding-left: 20px;
 }
 
 .slider-text span {
   display: block;
-  color: #ffffff;
   padding-left: 20px;
+  color: #ffffff;
 }
 
 .slider-btn {
   position: absolute;
   top: 0;
   bottom: 0;
-  margin: auto;
   width: 32px;
   height: 58px;
+  margin: auto;
   background: #c3a109;
 }
 
@@ -205,9 +202,9 @@ a {
 
 /*** SECTION PRODUCT ***/
 .products {
-  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
-  background: url("../img/bg.jpg") repeat;
   position: relative;
+  background: url("../img/bg.jpg") repeat;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
 }
 
 .products::after {
@@ -236,13 +233,10 @@ a {
   padding-top: 60px;
 }
 
-.products-item:nth-child(2) {
-}
-
 .products-item:last-child {
-  border-right: 1px solid rgba(0, 0, 0, 0.14);
   padding-top: 53px;
   padding-right: 15px;
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
 }
 
 .products-item img {
@@ -263,10 +257,10 @@ a {
 .products-item h4 {
   margin: 0;
   padding-left: 13px;
+  font: 400 27px/27px "SegoeWP-Light", sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  font: 400 27px/27px "SegoeWP-Light", sans-serif;
 }
 
 .products-item:last-child h4 {
@@ -280,21 +274,15 @@ a {
   background-size: cover;
 }
 
-.yellow-wrap {
-}
-
 .yellow-wrap h4 {
   margin: 0 0 35px;
   font: 400 37px/37px "PT Sans", sans-serif;
-  color: #ffffff;
-  text-transform: uppercase;
   letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 /*** SLIDER IN YELLOW ***/
-.band {
-}
-
 .band-wrap {
   height: 320px;
   font-size: 0;
@@ -357,10 +345,10 @@ a {
 
 .band-text p {
   margin: 0;
-  color: #ffffff;
   font: 400 29px/38px "SegoeWP-Light", sans-serif;
-  white-space: normal;
   letter-spacing: 0.01em;
+  white-space: normal;
+  color: #ffffff;
 }
 
 .band-date {
@@ -369,41 +357,40 @@ a {
   bottom: -85px;
   width: 115px;
   height: 85px;
-  background: #ddb101;
-  font: 700 50px/50px "SegoeWP", sans-serif;
-  color: #ffffff;
-  text-align: center;
   padding-top: 7px;
   box-sizing: border-box;
+  font: 700 50px/50px "SegoeWP", sans-serif;
+  text-align: center;
+  background: #ddb101;
+  color: #ffffff;
 }
 
 .band-date span {
   display: block;
   font: 400 22px/22px "SegoeWP", sans-serif;
-  color: #b26529;
   text-transform: uppercase;
+  color: #b26529;
 }
 
 .band-range {
   -webkit-appearance: none;
-  border-radius: 2px;
+  display: block;
   width: 900px;
   height: 15px;
+  margin: 43px auto 0;
+  border-radius: 7px;
   outline: none;
   background: rgba(255, 255, 255, 0.5);
-  border-radius: 7px;
-  margin: 43px auto 0;
-  display: block;
 }
 
 .band-range::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 195px;
   height: 15px;
-  background: #ec9e03;
   border-radius: 7px;
-  cursor: pointer;
+  background: #ec9e03;
   transition: 0.1s;
+  cursor: pointer;
 }
 
 .band-range::-webkit-slider-thumb:hover {
@@ -431,8 +418,8 @@ a {
   width: 315px;
   height: 235px;
   padding: 25px 0 0 10px;
-  background: #f5c507;
   box-sizing: border-box;
+  background: #f5c507;
 }
 
 .band-twitter ul {
@@ -444,14 +431,14 @@ a {
 .band-twitter li {
   position: relative;
   width: 275px;
+  margin-bottom: 14px;
   padding: 5px 40px 5px 20px;
+  border-radius: 10px;
   box-sizing: border-box;
   font: 400 13px "Arial", sans-serif;
-  color: #8f8e8e;
-  background: rgba(255, 255, 255, 0.7);
   white-space: normal;
-  margin-bottom: 14px;
-  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  color: #8f8e8e;
 }
 
 .band-twitter li::before {
@@ -484,12 +471,12 @@ a {
   vertical-align: top;
   width: 200px;
   height: 30px;
-  background: #ffffff;
-  border-radius: 9px 0 0 9px;
+  padding: 0 20px;
   border: 0;
   box-sizing: border-box;
+  border-radius: 9px 0 0 9px;
   font: 400 15px "Arial", sans-serif;
-  padding: 0 20px;
+  background: #ffffff;
   box-shadow: inset 5px 5px 5px 0 rgba(0, 0, 0, 0.11);
 }
 
@@ -499,17 +486,17 @@ a {
 }
 
 .band-form input[type="button"] {
+  width: 70px;
+  height: 30px;
+  border: 0;
+  border-radius: 0 9px 9px 0;
+  box-sizing: border-box;
   font: 400 15px "Arial", sans-serif;
   background: #eaa927;
   background: -moz-linear-gradient(top, #eaa927 0%, #cf8e0c 98%);
   background: -webkit-linear-gradient(top, #eaa927 0%, #cf8e0c 98%);
   background: linear-gradient(to bottom, #eaa927 0%, #cf8e0c 98%);
   color: #ffffff;
-  width: 70px;
-  height: 30px;
-  border: 0;
-  box-sizing: border-box;
-  border-radius: 0 9px 9px 0;
   cursor: pointer;
 }
 
@@ -524,19 +511,13 @@ a {
   background-size: cover;
 }
 
-.gray-wrap {
-}
-
 .gray-wrap h4 {
   margin: 0 0 50px;
+  letter-spacing: 0.01em;
   font: 400 43px/43px "PT Sans", sans-serif;
-  color: #f5c506;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 0.01em;
-}
-
-.gray-content {
+  color: #f5c506;
 }
 
 .gray-content-image {
@@ -558,11 +539,11 @@ a {
   width: 115px;
   height: 115px;
   border-radius: 50%;
-  background: #f5c506;
   font: 700 19px/115px "PT Sans Narrow", sans-serif;
-  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
+  background: #f5c506;
+  color: #ffffff;
 }
 
 .gray-content-text {
@@ -570,16 +551,16 @@ a {
   width: 400px;
   margin: 0;
   padding: 45px 0 0 50px;
-  list-style-type: none;
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 .gray-content-text li {
   position: relative;
   margin-bottom: 22px;
   font: 400 22px/26px "Open Sans", sans-serif;
-  color: #a9a9a7;
   letter-spacing: 0.01em;
+  color: #a9a9a7;
 }
 
 .gray-content-text li::before {
@@ -609,7 +590,7 @@ a {
 .footer-logo img {
   display: block;
   width: 223px;
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 640px) {
@@ -636,8 +617,8 @@ a {
   }
 
   .header-menu {
-    box-shadow: none;
     margin: 0;
+    box-shadow: none;
   }
 
   .header-menu li {
@@ -702,8 +683,8 @@ a {
     display: block;
     width: 100%;
     height: 327px;
-    box-shadow: none;
     object-fit: cover;
+    box-shadow: none;
   }
 
   .slider-item::before {
@@ -730,10 +711,7 @@ a {
     opacity: 0.4;
   }
 
-  .slider-text {
-    display: none;
-  }
-
+  .slider-text,
   .slider-btn {
     display: none;
   }
@@ -758,18 +736,18 @@ a {
   }
 
   .products-item:first-child {
-    padding-top: 35px;
     margin: 0;
+    padding-top: 35px;
   }
 
   .products-item:nth-child(2) {
-    padding-top: 29px;
     margin: 0;
+    padding-top: 29px;
   }
 
   .products-item:last-child {
-    padding-top: 29px;
     margin: 0;
+    padding-top: 29px;
   }
 
   .products-item:first-child img {
@@ -870,17 +848,8 @@ a {
     padding: 23px 0 0 17px;
   }
 
-  .band-form {
-  }
-
-  .band-number {
-    display: none;
-  }
-
-  .band-date {
-    display: none;
-  }
-
+  .band-number,
+  .band-date,
   .band-range {
     display: none;
   }
